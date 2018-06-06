@@ -1,0 +1,85 @@
+[
+  {
+    "name": "ANA Website",
+    "customer": "ANA Aeroportos",
+    "description":
+      "SharePoint website for information on the portuguese airports which are managed by ANA.",
+    "responsabilities": [
+      "development",
+      "SharePoint architecture",
+      "branding",
+      "team guidance"
+    ],
+    "technologies": [
+      "SharePoint 2010",
+      "C#",
+      "ASP .NET",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "ANA RouteLab",
+    "customer": "ANA Aeroportos",
+    "description":
+      "SharePoint website to provide airlines with information on routes",
+    "responsabilities": [
+      "development",
+      "SharePoint architecture",
+      "branding",
+      "team guidance"
+    ],
+    "technologies": [
+      "SharePoint 2010",
+      "C#",
+      "ASP .NET",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "ANA Intranet",
+    "customer": "ANA Aeroportos",
+    "description":
+      "Collaboration Portal for teams and departments of ANA Airports, as well as internal company communication.",
+    "responsabilities": [
+      "development",
+      "SharePoint architecture",
+      "branding",
+      "team guidance"
+    ],
+    "technologies": [
+      "SharePoint 2013",
+      "C#",
+      "ASP .NET",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Lactogal Intranet",
+    "customer": "Lactogal",
+    "description":
+      "Collaboration Portal for teams and departments of the several companies that are part of Grupo Lactogal, as well as internal company communication.",
+    "responsabilities": [
+      "development",
+      "SharePoint architecture",
+      "branding",
+      "team guidance",
+      "migration planning",
+      "migration execution"
+    ],
+    "technologies": [
+      "SharePoint 2010",
+      "SharePoint 2016",
+      "C#",
+      "ASP .NET",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }
+]
