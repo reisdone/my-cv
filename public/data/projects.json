@@ -17,7 +17,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "status": "offline"
   },
   {
     "name": "ANA RouteLab",
@@ -37,7 +38,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "status": "offline"
   },
   {
     "name": "ANA Intranet",
@@ -57,7 +59,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "status": "online"
   },
   {
     "name": "Lactogal Intranet",
@@ -80,6 +83,7 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "status": "online"
   }
 ]

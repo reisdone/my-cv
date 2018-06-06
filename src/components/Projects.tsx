@@ -1,4 +1,5 @@
 import * as React from "react";
+import './Projects.css';
 
 export interface IProps {
   name: string;
@@ -38,14 +39,13 @@ class Projects extends React.Component {
           this.setState({
             error,
             isLoaded: true
-            
           });
         }
       );
   }
 
   public render() {
-    const renderState : IProjectState= this.state as IProjectState;
+    const renderState: IProjectState = this.state as IProjectState;
     if (renderState.error) {
       return <div>Error: {renderState.error.message}</div>;
     } else if (!renderState.isLoaded) {
@@ -54,8 +54,10 @@ class Projects extends React.Component {
       return (
         <ul>
           {renderState.items.map(item => (
-            <li key={item.name}>
-              {item.name} {item.customer}
+            <li key={item.name} className="flex">
+              <div><strong>{item.name}</strong></div>
+              <div>{item.customer}</div>
+              <div className= {"status " +item.status}>{item.status}</div>
             </li>
           ))}
         </ul>
